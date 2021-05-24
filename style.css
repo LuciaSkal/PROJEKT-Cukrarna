@@ -19,6 +19,8 @@ html { box-sizing: border-box; }
 	h3 - 18px  (název produktu v Dnešní nabídce)
 	Nadpisy mají řádkování jen 1.25
 
+	font-family: 'Playfair Display', serif;
+
 	Barvy:
 	#f195b2		růžová - tlačítka a zvýraznění
 	#d2567d		tmavá růžová - hover/aktivní tlačítka
@@ -31,5 +33,207 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', italic;
+	font-weight: 400 italic;
 }
 
+p {
+	color: #242424;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+
+.hlavicka-popis {
+	margin: auto;
+	max-width: 1100px;
+	display: flex;
+  justify-content: space-between;
+	padding: 30px 30px;
+}
+
+.menu li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 10px 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #242424;
+}
+
+.menu-objednavka {
+	background-color: #f195b2;
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.menu-objednavka:hover {
+	background-color: #d2567d;
+}
+
+footer {
+	background-color: #303339;
+}
+
+footer p {
+  margin: 0;
+	color: #f0f0f0;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.hero {
+	background-image: url('images/cupcake.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.kontejner-popis {
+	margin: auto;
+	max-width: 1100px;
+	color: white;
+	text-align: left;
+  padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+}
+
+.hero-popis {
+	 width: 50%;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+	color: white;
+	font-weight: 700 bold;
+}
+
+.hero-popis p {
+	color: white;
+}
+
+
+.welcome-popis {
+	margin: auto;
+	max-width: 1100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	}
+
+h2 	{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	margin: 0;
+	color: #3e606b;
+	font-weight: 400 bold;
+}
+
+.levý-sloupec {
+ padding-right: 30px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+} 
+
+.nase-vyrobky {
+	width: 40%;
+	margin: 20px 0 0  0;
+	background-color: #f195b2;
+	color: white;
+	border-radius: 30px;
+	padding: 15px 40px;
+	text-align: center;
+}
+
+.nase-vyrobky:hover {
+	background-color: #d2567d;
+}
+
+
+.pravý-sloupec img {
+	border-radius: 5px;
+}
+
+.dnesni-nabidka {
+	background-color: #f0f0f0;
+}
+
+.nabidka-popis {
+margin: auto;
+max-width: 1100px;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.kontejner-nabidky {
+	display: flex;
+
+}
+
+.produkt1,
+.produkt2,
+.produkt3,
+.produkt4 {
+	display: flex;
+	flex-direction: column;
+}
+
+h3 {
+	text-align: center;
+
+}
+
+.popis-produkt1 {
+	background-color: white;
+	border-radius: 0 0 5px 5px;
+	padding: 0 20px 20px 20px;
+}
+
+.produkt4 img {
+	width: 100%;
+}
+
+.produkt3 img {
+	width: 100%;
+}
+
+.produkt2 img {
+	width: 100%;
+}
+
+.produkt1 img {
+	width: 100%;
+}
+
+.produkt2,
+.produkt3,
+.produkt4 {
+ margin-left:30px;
+}	
+
+
+.pristup-popis {
+margin: auto;
+max-width: 1100px;
+padding-top: 80px;
+padding-bottom: 80px;
+display: flex;
+}
+
+.pravy-sloupec {
+  display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ padding-left: 30px;
+}
+
+.levy-sloupec img {
+	border-radius: 5px;
+}
